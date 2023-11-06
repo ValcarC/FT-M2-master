@@ -22,19 +22,8 @@ function handleInputChange(evento) {
   })
 }
 
-function handleSpecies(evento){
-  setZoo({
-    ...zoo,
-    animals:zoo.allAnimals.filter((animal) => animal.specie === evento.target.value)
-  })
-}
-
-function handleAllSpecies(){
-  setZoo({
-    ...zoo,
-    animals:zoo.allAnimals
-  })
-}
+function handleSpecies(evento){}
+function handleAllSpecies(){}
 
 React.useEffect(() => {
   fetch('http://localhost:3001/zoo')

@@ -16,7 +16,7 @@ En esta actividad debes desarrollar una Zoo App utilizando componentes funcional
 -  Mostrar todos los animales que tiene el zoológico.
 -  Tener botones con la funcionalidad de mostrar los animales según su especie.
 
-<br />
+<br />git 
 
 ---
 
